@@ -1,3 +1,5 @@
-const web = require('./module/myModule'); // Nos permite traer valores desde exports 
+const all = require('./module/myModule'); // Nos permite traer valores desde exports 
+const { myOld, objUser } = require('./module/myModule'); 
 
-console.log("ESTE ES TU WEB" + "  " + web);
+console.log(myOld, objUser);
+console.log("ESTE ES TU UNIVERSOTT 👽" + "  " + all);
